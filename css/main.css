@@ -1,0 +1,123 @@
+body {
+  background-color: #FFF;
+  color: #666;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;;
+  margin:0px;
+}
+a { 
+	color: #CC99CC;
+	font-weight: bold;
+	text-decoration:none;
+	font-size: 18px;
+}
+h1 {
+  font-family: 'Kalam', cursive; 
+  font-size: 42px;
+}
+h1 span {
+  font-size: 32px;
+  display: block;
+}
+p { 
+  text-align:justify 
+}
+.logo {
+  color:#666;
+}
+.container {
+  width: 70%;
+  margin-top:25px;
+  padding: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-top:  1px solid #999;
+  border-top-style: dashed;
+}
+article {
+  border-bottom:  1px solid #999;
+  border-bottom-style: dashed;
+  padding: 20px 0 10px 0;
+}
+
+/*-- img styles --*/
+.img-center {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #999;  
+}
+.rounded {
+	border-radius: 10%;
+}
+.img-gallery {
+  width: 100%;
+}
+
+/*-- nav --*/
+header {
+	text-align: center;
+}
+nav {  
+  display: inline-block;   
+}	
+nav a {
+padding: 8px 16px;
+float: left;
+color:#CCC;
+}	
+nav a:hover {
+ color:#999;
+ background-color:#ccc;
+}	
+nav .active {
+  background-color: #f1f1f1;
+  color:#999;
+}
+
+/*-- social icons --*/
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  color: #CC99CC;
+}
+
+/*-- contact form --*/
+input[type=text], textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+  color: #ccc;
+  font-family: 'Raleway', sans-serif;
+  font-style:italic;
+}	
+input[type=submit] {
+  width: 100%;
+  background-color: #CC99CC;
+  font-family: 'Raleway', sans-serif;
+  color: #666;
+  font-size:16px;
+  font-weight:bold;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}	
+input[type=submit]:hover {
+  background-color: #ccc;
+}
+
+/*-- footer --*/
+footer {
+  background-color: #CCCCCC;
+  text-align: center;
+  padding: 20px 0;
+}	
+footer p {
+  text-align: center;
+}
